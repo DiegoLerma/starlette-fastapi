@@ -61,7 +61,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
 
 Puedes interactuar con la API utilizando herramientas como [Postman](https://www.postman.com/) o `curl`, o visitando la documentación automática generada por FastAPI disponible en `http://127.0.0.1:8000/docs` o `http://127.0.0.1:8000/redoc`.
 
-### Ejemplo de uso con `curl`:
+### Ejemplo de uso con `curl`
 
 - **Crear un elemento:**
 

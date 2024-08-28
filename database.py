@@ -2,7 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 
 MONGO_DETAILS = "mongodb://127.0.0.1:27017"
 
-client = AsyncIOMotorClient(MONGO_DETAILS)
+client: AsyncIOMotorClient = AsyncIOMotorClient(MONGO_DETAILS)
 
 # Base de datos
 database = client.starlet_db
